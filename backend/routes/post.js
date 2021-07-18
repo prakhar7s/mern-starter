@@ -16,4 +16,6 @@ router.post("/new/:id", async (req, resp) => {
   resp.redirect("/");
 });
 
+router.put("/new/:id", (req, resp) => {});
+
 module.exports = router;
